@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/bootstrap.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+    <title>Bootstrap Practice</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bootstrap 5 Examples via Web Dev Simplified</h1>
+        <a href="https://www.youtube.com/watch?v=Jyvffr3aCp0">
+            <h2>Bootstrap 5 Crash Course</h2>
+        </a>
+    </div>
+    <hr class="topic">
+    <div style="background-color: lightgrey;" class="container">
+        <h2>Bootstrap Generic Container</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto harum itaque totam, inventore nemo eligendi esse
+        dolorem doloremque mollitia quis facere magni, laborum illo consectetur cum. Delectus aliquam laudantium
+        obcaecati provident error est. Tenetur molestias odio voluptas magni nesciunt. Alias aperiam at quae quaerat
+        magnam tenetur aliquam iusto perspiciatis sapiente?
+    </div>
+    <hr>
+    <div class="container">
+        <h2>GRID - Columns</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box">col (<-12->)</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col-6">
+                <div class="box">col-6</div>
+            </div>
+            <div class="col-3">
+                <div class="box">col-3</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-auto">
+                <div class="box">col-auto</div>
+            </div>
+            <div class="col-auto">
+                <div class="box">c-a</div>
+            </div>
+            <div class="col-auto">
+                <div class="box">I am an automatic column</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-lg-4 col-8">
+                <div class="box">col-lg-4 col-8</div>
+            </div>
+            <div class="col-auto">
+                <div class="box2">8 wide if < lg</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-4">
+                <div class="box">col-4</div>
+            </div>
+            <div class="col-4">
+                <div class="box2">"offset-4"</div>
+            </div>
+            <div class="col-4">
+                <div class="box">col-4</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>is equal to:</h3>
+        <div class="row">
+            <div class="col-4">
+                <div class="box">col-4</div>
+            </div>
+            <div class="col-4 offset-4">
+                <div class="box">col-4 + os-4</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-4">
+                <div class="box">col-4</div>
+            </div>
+            <div class="col-8">
+                <div class="box2">new line</div>
+            </div>
+            <div class="col-8">
+                <div class="box2">"offset-8"</div>
+            </div>
+            <div class="col-4">
+                <div class="box">col-4 + os-8</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>is equal to:</h3>
+        <div class="row">
+            <div class="col-4">
+                <div class="box">col-4</div>
+            </div>
+            <div class="col-4 offset-8">
+                <div class="box">col-4 + os-8</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>GRID - Rows</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>"row <strong><em>row-cols-2</em></strong>"</h3>
+        <div class="row row-cols-2">
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>"row row-cols-2"</h3>
+        <div class="row row-cols-2">
+            <div class="col-10">
+                <div class="box"><strong><em>col-10</em></strong></div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>"row row-cols-2 <strong><em>gy-3</em></strong>"</h3>
+        <div class="row row-cols-2 gy-3">
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>"row row-cols-2 <strong><em>gx-5</em></strong>"</h3>
+        <div class="row row-cols-2 gx-5">
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>"row row-cols-2 <strong><em>g-4</em></strong>"</h3>
+        <div class="row row-cols-2 g-4">
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Nested rows w/ columns</h3>
+        <div class="row row-cols-2 g-3">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="box3">row > col</div>
+                    </div>
+                    <div class="col">
+                        <div class="box3">row > col</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3 style="padding-bottom: 25px;">Nested rows w/ columns <strong><em>w/o parent "col"</em></strong>
+        </h3>
+        <div class="row row-cols-2 g-3">
+
+            <div class="row">
+                <div class="col">
+                    <div class="box3">row > col</div>
+                </div>
+                <div class="col">
+                    <div class="box3">row > col</div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+            <div class="col">
+                <div class="box">col</div>
+            </div>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>TABLES</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <code>
+                    <h3>&lt;div class="table-responsive"&gt;</h3>
+                    <h3>&emsp;&lt;table class="table"&gt;</h3>
+                </code>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                        <th>Senior Discount</th>
+                        <th>State</th>
+                        <th>Salary</th>
+                        <th>Retired</th>
+                        <th>Deceased</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$65,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$55,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                        <td>No</td>
+                        <td>UT</td>
+                        <td>$62,500</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <code>
+                    <h3>&lt;table class="table <strong><em>table-striped-columns</em></strong>"&gt;</h3>
+                </code>
+        <div class="table-responsive">
+            <table class="table table-striped-columns">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                        <th>Senior Discount</th>
+                        <th>State</th>
+                        <th>Salary</th>
+                        <th>Retired</th>
+                        <th>Deceased</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$65,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$55,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                        <td>No</td>
+                        <td>UT</td>
+                        <td>$62,500</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <code>
+                    <h3>&lt;table class="table <strong><em>table-striped</em></strong>"&gt;</h3>
+                </code>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                        <th>Senior Discount</th>
+                        <th>State</th>
+                        <th>Salary</th>
+                        <th>Retired</th>
+                        <th>Deceased</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$65,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$55,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                        <td>No</td>
+                        <td>UT</td>
+                        <td>$62,500</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <code>
+                    <h3>&lt;table class="table table-striped <strong><em>table-hover</em></strong>"&gt;</h3>
+                </code>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                        <th>Senior Discount</th>
+                        <th>State</th>
+                        <th>Salary</th>
+                        <th>Retired</th>
+                        <th>Deceased</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$65,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$55,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                        <td>No</td>
+                        <td>UT</td>
+                        <td>$62,500</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <code>
+            <h3>&lt;table class="table table-striped <strong><em>table-dark</em></strong>"&gt;</h3>
+        </code>
+        <div class="table-responsive">
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                        <th>Senior Discount</th>
+                        <th>State</th>
+                        <th>Salary</th>
+                        <th>Retired</th>
+                        <th>Deceased</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$65,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                        <td>No</td>
+                        <td>ID</td>
+                        <td>$55,000</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                        <td>No</td>
+                        <td>UT</td>
+                        <td>$62,500</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Built-in Color Options</h3>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="table-primary">Primary</th>
+                        <th class="table-secondary">Secondary</th>
+                        <th class="table-success">Success</th>
+                        <th class="table-danger">Danger</th>
+                        <th class="table-warning">Warning</th>
+                        <th class="table-info">Info</th>
+                        <th class="table-light">Light</th>
+                        <th class="table-dark">Dark</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-primary">Kyle</td>
+                        <td class="table-secondary">Cook</td>
+                        <td class="table-success">28</td>
+                        <td class="table-danger">No</td>
+                        <td class="table-warning">ID</td>
+                        <td class="table-info">$65,000</td>
+                        <td class="table-light">No</td>
+                        <td class="table-dark">No</td>
+                    </tr>
+                    <tr>
+                        <td class="table-primary">John</td>
+                        <td class="table-secondary">Smith</td>
+                        <td class="table-success">32</td>
+                        <td class="table-danger">No</td>
+                        <td class="table-warning">ID</td>
+                        <td class="table-info">$55,000</td>
+                        <td class="table-light">No</td>
+                        <td class="table-dark">No</td>
+                    </tr>
+                    <tr>
+                        <td class="table-primary">Bob</td>
+                        <td class="table-secondary">Johnson</td>
+                        <td class="table-success">45</td>
+                        <td class="table-danger">No</td>
+                        <td class="table-warning">UT</td>
+                        <td class="table-info">$62,500</td>
+                        <td class="table-light">No</td>
+                        <td class="table-dark">No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Table Borders & Sizing</h3>
+        <h4>table-sm:</h4>
+        <div class="table-responsive">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4>table-bordered:</h4>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4>table-borderless:</h4>
+        <div class="table-responsive">
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h4>table-group-divider:</h4>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <td>Kyle</td>
+                        <td>Cook</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td class="table-group-divider">John</td>
+                        <td>Smith</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>45</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>FORMS</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <code>
+                    <h4>&lt;input class="form-control"&gt;</h4>
+                </code>
+        <form>
+            <label for="email1" class="form-label">Email</label>
+            <input type="email" id="email1" class="form-control">
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <code>
+                    <h4>&lt;input class="form-control <strong><em>form-control-sm</em></strong>"&gt;</h4>
+                </code>
+        <form>
+            <label for="email2" class="form-label">Email</label>
+            <input type="email" id="email2" class="form-control form-control-sm">
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <code>
+                    <h4>&lt;input class="form-control <strong><em>form-control-lg</em></strong>"&gt;</h4>
+                </code>
+        <form>
+            <label for="email3" class="form-label">Email</label>
+            <input type="email" id="email3" class="form-control form-control-lg">
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <code>
+                    <h4>&lt;input class="form-control <strong><em>form-control-plaintext</em></strong>"&gt;</h4>
+                </code>
+        <form>
+            <label for="email4" class="form-label">Email</label>
+            <input type="email" id="email4" class="form-control form-control-plaintext" value="email@gmail.com">
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Color Picker</h3>
+        <code>
+                    <h4>&lt;input <strong><em>type="color"</em></strong> class="form-control
+                        <strong><em>form-control-color</em></strong>"&gt;</h4>
+                </code>
+        <form>
+            <label for="color" class="form-label">Color</label>
+            <input type="color" id="color" class="form-control form-control-color">
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Range Slider</h3>
+        <code>
+                    <h4>&lt;input <strong><em>type="range" class="<s>form-control</s> form-range"</em></strong>&gt;
+                    </h4>
+                </code>
+        <form>
+            <label for="range" class="form-label">Range</label>
+            <input type="range" id="range" class="form-range">
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Select Drop-down</h3>
+        <code>
+                    <h4>&lt;select class="form-select"&gt;</h4>
+                </code>
+        <form>
+            <select class="form-select">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Select Form Sizes:</h3>
+        <div class="row">
+            <div class="col">
+                <code>
+                            <h4>&lt;select class="form-select <strong><em>form-select-sm</em></strong>"&gt;</h4>
+                        </code>
+                <form>
+                    <select class="form-select form-select-sm">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <code>
+                            <h4>&lt;select class="form-select <strong><em>form-select-lg</em></strong>"&gt;</h4>
+                        </code>
+                <form>
+                    <select class="form-select form-select-lg">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <h3>Checkboxes</h3>
+        <hr>
+        <h4>Classic</h4>
+        <code>
+                    <h4>&lt;form&gt;</h4>
+                    <h4>&emsp;&lt;div class="form-check"&gt;</h4>
+                    <h4>&emsp;&emsp;&lt;input class="form-check-input"&gt;</h4>
+                    <h4>&emsp;&emsp;&lt;label class="form-check-label"&gt;</h4>
+                </code>
+        <form>
+            <div class="form-check">
+                <input type="checkbox" id="email5" class="form-check-input">
+                <label for="email5" class="form-check-label">Check me out</label>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <h4>Switches</h4>
+        <code>
+                    <h4>&lt;div class="form-check <strong><em>form-switch</em></strong>"&gt;</h4>
+                </code>
+        <form>
+            <div class="form-check form-switch">
+                <input type="checkbox" id="email6" class="form-check-input">
+                <label for="email6" class="form-check-label">Check me out</label>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <hr>
+        <h4>Inline Switches</h4>
+        <code>
+                    <h4>&lt;div class="form-check form-switch <strong><em>form-check-inline</em></strong>"&gt;</h4>
+                </code>
+        <form>
+            <div class="form-check form-switch form-check-inline">
+                <input type="checkbox" id="email7" class="form-check-input">
+                <label for="email7" class="form-check-label">Check me out</label>
+            </div>
+            <div class="form-check form-switch form-check-inline">
+                <input type="checkbox" id="email8" class="form-check-input">
+                <label for="email8" class="form-check-label">Check me out</label>
+            </div>
+        </form>
+        <hr>
+    </div>
+    <div class="container">
+        <h2>Input Groups</h2>
+        <hr>
+        <h3>Basic Example</h3>
+        <code>
+            <h4>&lt;label class="form-label"&gt;Text&gt;&lt;/label&gt;</h4>
+            <h4>&lt;div class="input-group"&gt;</h4>
+            <h4>&emsp;&lt;input type="text" class="form-control"&gt;</h4>
+            <h4>&emsp;&lt;input type="text" class="form-control"&gt;</h4>
+        </code>
+        <form>
+            <label for="text" class="form-label">Text</label>
+            <div class="input-group">
+                <input type="text" id="text1" class="form-control">
+                <input type="text" id="text2" class="form-control">
+            </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+        <hr>
+    </div>
+    <div class="container">
+        <h3>Input Group Text</h3>
+        <code>
+            <h4>&lt;label class="form-label"&gt;<strong><em>Amount</em></strong>&gt;&lt;/label&gt;</h4>
+            <h4>&lt;div class="input-group"&gt;</h4>
+            <h4>&emsp;&lt;div
+                class="<strong><em>input-group-text</em></strong>"&gt;<strong><em>$</em></strong>&lt;/div&gt;
+            </h4>
+            <h4>&emsp;&lt;input type="<strong><em>number</em></strong>" class="form-control"&gt;</h4>
+        </code>
+        <form>
+            <label for="text" class="form-label">Amount</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" id="text3" class="form-control">
+            </div>
+            <button class="btn btn-primary">Submit</button>
+            <hr>
+        </form>
+    </div>
+    <div class="container">
+        <h3>Double Input Group Text</h3>
+        <code>
+                    <h4>&lt;label class="form-label"&gt;Amount&gt;&lt;/label&gt;</h4>
+                    <h4>&lt;div class="input-group"&gt;</h4>
+                    <h4>&emsp;&lt;div class="input-group-text"&gt;$&lt;/div&gt;</h4>
+                    <h4>&emsp;&lt;input type="number" class="form-control"&gt;</h4>
+                    <h4>&emsp;<strong><em>&lt;div class="input-group-text"&gt;.00&lt;/div&gt;</em></strong></h4>
+                </code>
+        <form>
+            <label for="text" class="form-label">Amount</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" id="text3" class="form-control">
+                <div class="input-group-text">.00</div>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+            <hr>
+    </div>
+    <div class="container">
+        <h3>Input Group with Buttons</h3>
+        <code>
+            <h4>&lt;label class="form-label"&gt;Amount&gt;&lt;/label&gt;</h4>
+            <h4>&lt;div class="input-group"&gt;</h4>
+            <h4>&emsp;&lt;div class="input-group-text"&gt;$&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;input type="number" class="form-control"&gt;</h4>
+            <h4>&emsp;<strong><em>&lt;button class="btn btn-primary"&gt;+&lt;/button&gt;</em></strong></h4>
+        </code>
+        <form>
+            <label for="text" class="form-label">Amount</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" id="text3" class="form-control">
+                <button class="btn btn-primary">+</button>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+            <hr>
+        </form>
+    </div>
+    <div class="container">
+        <h3>Floating Input Label</h3>
+        <code>
+            <h4>&lt;div class="form-floating"&gt;</h4>
+            <h4>&emsp;&lt;input class="form-control" placeholder="Place email here"&gt;</h4>
+            <h4>&emsp;&lt;label&gt;Email&lt;/label&gt;</h4>
+        </code>
+        <form>
+            <div class="form-floating">
+                <input type="email" id="email9" class="form-control" placeholder="Place email here">
+                <label for="email9">Email</label>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+            <hr>
+        </form>
+    </div>
+    <div class="container">
+        <h3>Form Validation...with a little JavaScript</h3>
+        <code>
+            <h4>&lt;form novalidate&gt;</h4>
+            <h4>&emsp;&lt;div class="form-floating"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;input type="email" class="form-control" placeholder="Place email here"
+                required&gt;</h4>
+            <h4>&emsp;&emsp;&lt;label&gt;Email&lt;/label&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="invalid-feedback"&gt;Invalid email&lt;/div&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="valid-feedback"&gt;Valid email&lt;/div&gt;</h4>
+        </code>
+        <h4>Javascript code:</h4>
+        <div class="jscode_div">
+            <code class="jscode">
+                <h4>const form = document.querySelector("form")</h4>
+                <h4>form.addEventListener('submit', e => {</h4>
+                <h4>&emsp;if (!form.checkValidity()) {</h4>
+                <h4>&emsp;&emsp;e.preventDefault();</h4>
+                <h4>&emsp;}</h4>
+                <h4>&emsp;form.classList.add('was-validated');</h4>
+                <h4>})</h4>
+            </code>
+        </div>
+        <form id="validation_form" novalidate>
+            <div class="form-floating">
+                <input type="email" id="email10" class="form-control" placeholder="Place email here" required>
+                <label for="email10">Email</label>
+                <div class="invalid-feedback">Invalid email</div>
+                <div class="valid-feedback">Valid email</div>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+            <hr>
+        </form>
+        <script>
+            const form = document.querySelector("#validation_form")
+            form.addEventListener('submit', e => {
+                if (!form.checkValidity()) {
+                    e.preventDefault();
+                }
+                form.classList.add('was-validated');
+            })
+        </script>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h1>BUTTONS</h1>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Buttons Basics</h3>
+        <code>
+            <h4>&lt;button class="btn <u>btn-primary</u>"&gt;Test&lt;/button&gt;</h4>
+        </code>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-secondary">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-success">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-danger">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-warning">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-info">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-light">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-dark">Test</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <code>btn-primary</code>
+            </div>
+            <div class="col">
+                <code>btn-secondary</code>
+            </div>
+            <div class="col">
+                <code>btn-success</code>
+            </div>
+            <div class="col">
+                <code>btn-danger</code>
+            </div>
+            <div class="col">
+                <code>btn-warning</code>
+            </div>
+            <div class="col">
+                <code>btn-info</code>
+            </div>
+            <div class="col">
+                <code>btn-light</code>
+            </div>
+            <div class="col">
+                <code>btn-dark</code>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Outline Buttons</h3>
+        <code>
+            <h4>&lt;button class="btn <strong><em>btn-outline-primary</em></strong>"&gt;Test&lt;/button&gt;
+            </h4>
+        </code>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-outline-primary">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-secondary">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-success">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-danger">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-warning">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-info">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-light">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-dark">Test</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <code>btn-outline-primary</code>
+            </div>
+            <div class="col">
+                <code>btn-outline-secondary</code>
+            </div>
+            <div class="col">
+                <code>btn-outline-success</code>
+            </div>
+            <div class="col">
+                <code>btn-outline-danger</code>
+            </div>
+            <div class="col">
+                <code>btn-outline-warning</code>
+            </div>
+            <div class="col">
+                <code>btn-outline-info</code>
+            </div>
+            <div class="col">
+                <code>btn-outline-light</code>
+            </div>
+            <div class="col">
+                <code>btn-outline-dark</code>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Buttons as Anchor Tags/Links</h3>
+        <code>
+            <h4>&lt;<strong><em>a</em></strong> href="#" class="btn
+                btn-primary"&gt;Test&lt;<strong><em>/a</em></strong>&gt;</h4>
+        </code>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <a href="#" class="btn btn-primary">Test</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-secondary">Test</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-success">Test</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-danger">Test</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-warning">Test</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-info">Test</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-light">Test</a>
+            </div>
+            <div class="col">
+                <a href="#" class="btn btn-dark">Test</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <code>btn-primary</code>
+            </div>
+            <div class="col">
+                <code>btn-secondary</code>
+            </div>
+            <div class="col">
+                <code>btn-success</code>
+            </div>
+            <div class="col">
+                <code>btn-danger</code>
+            </div>
+            <div class="col">
+                <code>btn-warning</code>
+            </div>
+            <div class="col">
+                <code>btn-info</code>
+            </div>
+            <div class="col">
+                <code>btn-light</code>
+            </div>
+            <div class="col">
+                <code>btn-dark</code>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Buttons Styled as Links</h3>
+        <code>
+            <h4>&lt;button class="btn <strong><em>btn-link</em></strong>"&gt;Test&lt;/button&gt;</h4>
+        </code>
+        <button class="btn btn-primary btn-link">Link</button>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Button Sizes</h3>
+        <code>
+            <h4>&lt;button class="btn btn-primary
+                <strong><em>btn-lg</em></strong>"&gt;Test&lt;/button&gt;</h4>
+            <h4>&lt;button class="btn btn-primary
+                <strong><em>btn-sm</em></strong>"&gt;Test&lt;/button&gt;</h4>
+        </code>
+        <hr>
+        <div class="row g-4">
+            <div class="col">
+                <button class="btn btn-primary btn-lg">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary">Test</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-sm">Test</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <code>btn-lg</code>
+            </div>
+            <div class="col">
+                <code>btn</code>
+            </div>
+            <div class="col">
+                <code>btn-sm</code>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Disabled Buttons</h3>
+        <div class="row g-4">
+            <div class="col">
+                <code>
+                    <h4>&lt;button class="btn btn-primary"<strong><em>disabled</em></strong>&gt;Test&lt;/button&gt;</h4>
+                </code>
+                <button class="btn btn-primary" disabled>Test</button>
+            </div>
+            <div class="col">
+                <code>
+                    <h4>&lt;a class="btn btn-primary<strong><em>disabled</em></strong>"&gt;Test&lt;/a&gt;</h4>
+                </code>
+                <a class="btn btn-primary disabled">Test</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Button Toggle</h3>
+        <div class="row g-4">
+            <div class="col">
+                <code>
+                    <h4>&lt;button class="btn btn-primary"
+                        <strong><em>data-bs-toggle="button"</em></strong>&gt;Test&lt;/button&gt;</h4>
+                </code>
+                <button class="btn btn-primary" data-bs-toggle="button" aria-pressed="true">Test</button>
+            </div>
+            <div class="col">
+                <code>
+                    <h4>&lt;button class="btn <strong><em>btn-outline-primary active"
+                                data-bs-toggle="button"</em></strong>&gt;Test&lt;/button&gt;</h4>
+                </code>
+                <button class="btn btn-outline-primary active" data-bs-toggle="button"
+                    aria-pressed="true">Test</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Button Groups</h3>
+        <div class="row g-4">
+            <div class="col">
+                <code>
+                    <h4>&lt;div class="<strong><em>btn-group</em></strong>"&gt;</h4>
+                    <h4>&emsp;&lt;button class="btn btn-primary"&gt;Left&lt;/button&gt;</h4>
+                    <h4>&emsp;&lt;button class="btn btn-primary"&gt;Middle&lt;/button&gt;</h4>
+                    <h4>&emsp;&lt;button class="btn btn-primary"&gt;Right&lt;/button&gt;</h4>
+                    <h4>&lt;/div&gt;</h4>
+                </code>
+                <div class="btn-group">
+                    <button class="btn btn-primary">Left</button>
+                    <button class="btn btn-primary">Middle</button>
+                    <button class="btn btn-primary">Right</button>
+                </div>
+            </div>
+            <div class="col">
+                <code>
+                    <h4>&lt;div class="<strong><em>btn-group-vertical</em></strong>"&gt;</h4>
+                    <h4>&emsp;&lt;button class="btn btn-outline-primary"&gt;Top&lt;/button&gt;</h4>
+                    <h4>&emsp;&lt;button class="btn btn-outline-primary"&gt;Middle&lt;/button&gt;</h4>
+                    <h4>&emsp;&lt;button class="btn btn-outline-primary"&gt;Bottom&lt;/button&gt;</h4>
+                    <h4>&lt;/div&gt;</h4>
+                </code>
+                <div class="btn-group-vertical">
+                    <button class="btn btn-outline-primary">Top</button>
+                    <button class="btn btn-outline-primary">Middle</button>
+                    <button class="btn btn-outline-primary">Bottom</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Button Group Sizes</h3>
+        <div class="row g-4">
+            <div class="col">
+                <code>
+                    <h4>&lt;div class="btn-group<strong><em> btn-group-sm</em></strong>"&gt;</h4>
+                </code>
+                <div class="btn-group btn-group-sm">
+                    <button class="btn btn-primary">Left</button>
+                    <button class="btn btn-primary">Middle</button>
+                    <button class="btn btn-primary">Right</button>
+                </div>
+            </div>
+            <div class="col">
+                <code>
+                    <h4>&lt;div class="btn-group <strong><em>btn-group-lg</em></strong>"&gt;</h4>
+                </code>
+                <div class="btn-group btn-group-lg">
+                    <button class="btn btn-outline-primary">Left</button>
+                    <button class="btn btn-outline-primary">Middle</button>
+                    <button class="btn btn-outline-primary">Right</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Close Buttons</h3>
+        <div class="row g-4">
+            <div class="col">
+                <code>
+                    <h4>&lt;button class="<strong><em>btn-close btn-close-dark</em></strong>"&gt;</h4>
+                </code>
+                <button class="btn-close btn-close-dark"></button>
+            </div>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>ALERTS</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <code>
+            <h4>&lt;div class="<u>alert alert-success alert-dismissible" role="alert"</u>&gt;</h4>
+            <h4>&emsp;Alert Message</h4>
+            <h4>&emsp;&lt;button class="<u>btn-close" aria-label="close"
+                    data-bs-dismiss="alert"</u>&gt;&lt;/button&gt;</h4>
+        </code>
+        <div class="alert alert-success alert-dismissible" role="alert">
+            Alert Success
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            Alert Warning
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            Alert Danger
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-info alert-dismissible" role="alert">
+            Alert Info
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-light alert-dismissible" role="alert">
+            Alert Light
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-dark alert-dismissible" role="alert">
+            Alert Dark
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-primary alert-dismissible" role="alert">
+            Alert Primary
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-secondary alert-dismissible" role="alert">
+            Alert Secondary
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Alert Variations</h3>
+        <code>
+            <h4>&lt;div class="alert alert-success alert-dismissible <strong><em>fade show</em></strong>"
+                role="alert"&gt;</h4>
+            <h4>&emsp;<strong><em>&lt;h3&gt;</em></strong>Alert Message<strong><em>&lt;/h3&gt;</em></strong>
+            </h4>
+            <h4>&emsp;<strong><em>&lt;a href="#" class="alert-link"&gt;Go here to find out
+                        more&lt;/a&gt;</em></strong></h4>
+            <h4>&emsp;&lt;button class="btn-close" aria-label="close"
+                data-bs-dismiss="alert"&gt;&lt;/button&gt;</h4>
+        </code>
+        <div class="alert alert-success alert-dismissible show" role="alert">
+            <h3>Alert Success</h3>
+            <a href="#" class="alert-link">Go here to find out more</a>
+            <button class="btn-close" aria-label="Close"></button>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h3>CARDS</h3>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Basic Card with Text</h3>
+        <code>
+            <h4>&lt;div <u>class="card"</u>&gt;</h4>
+            <h4>&emsp;&lt;div <u>class="card-body"</u>&gt;</h4>
+            <h4>&emsp;&emsp;Lorem ipsum...</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <div class="card">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore illo ex
+                tempora, similique, et voluptatibus consequatur unde architecto facilis quam nostrum
+                corrupti alias quae tenetur beatae nesciunt dolorum non dolores dignissimos sint?
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Card with Title</h3>
+        <code>
+            <h4>&lt;div class="card"&gt;</h4>
+            <h4>&emsp;&lt;div class="card-body"&gt;</h4>
+            <h4>&emsp;&emsp;<strong><em>&lt;h2 class="card-title"&gt;Title&lt;/h2&gt;</em></strong></h4>
+            <h4>&emsp;&emsp;<strong><em>&lt;span
+                        class="card-subtitle"&gt;Subtitle&lt;/span&gt;</em></strong></h4>
+            <h4>&emsp;&emsp;&lt;div class="<strong><em>card-text</em></strong>"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;Lorem ipsum...</h4>
+        </code>
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <span class="card-subtitle">Subtitle</span>
+                <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore
+                    illo ex tempora, similique, et voluptatibus consequatur unde architecto facilis quam
+                    nostrum corrupti alias quae tenetur beatae nesciunt dolorum non dolores dignissimos
+                    sint?
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Card with Images</h3>
+        <code>
+            <h4>&lt;div class="card" <strong><em>style="width: 300px;</em></strong>"&gt;</h4>
+            <h4>&emsp;&lt;img src="..." class="<strong><em>card-img-top</em></strong>" alt="..."&gt;</h4>
+            <h4>&emsp;&lt;div class="card-body"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;h2 class="card-title"&gt;Title&lt;/h2&gt;</h4>
+            <h4>&emsp;&emsp;&lt;span class="card-subtitle"&gt;Subtitle&lt;/span&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="card-text"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;Lorem ipsum...</h4>
+        </code>
+        <div class="card" style="width: 300px; margin: auto;">
+            <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <span class="card-subtitle">Subtitle</span>
+                <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore
+                    illo ex tempora, similique, et voluptatibus consequatur unde architecto facilis quam
+                    nostrum corrupti alias quae tenetur beatae nesciunt dolorum non dolores dignissimos
+                    sint?
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Card with Image on Bottom</h3>
+        <code>
+            <h4>&lt;div class="card" <strong><em>style="width: 300px;</em></strong>"&gt;</h4>
+            <h4><s>&emsp;&lt;img src="..." class="<strong><em>card-img-top</em></strong>" alt="..."&gt;</s>
+            </h4>
+            <h4>&emsp;&lt;div class="card-body"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;h2 class="card-title"&gt;Title&lt;/h2&gt;</h4>
+            <h4>&emsp;&emsp;&lt;span class="card-subtitle"&gt;Subtitle&lt;/span&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="card-text"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;Lorem ipsum...</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;<strong><em>&lt;img src="..." class="card-img-bottom" alt="..."&gt;</em></strong></h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <div class="card" style="width: 300px; margin: auto;">
+            <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <span class="card-subtitle">Subtitle</span>
+                <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore
+                    illo ex tempora, similique, et voluptatibus consequatur unde architecto facilis quam
+                    nostrum corrupti alias quae tenetur beatae nesciunt dolorum non dolores dignissimos
+                    sint?
+                </div>
+            </div>
+            <img src="https://picsum.photos/300/200" class="card-img-bottom" alt="...">
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Card with Image Overlay</h3>
+        <code>
+            <h4>&lt;div class="card" style="width: 300px;"&gt;</h4>
+            <h4>&emsp;&lt;img src="..." class="card-img" alt="..."&gt;</h4>
+            <h4>&emsp;&lt;div class="<strong><em>card-img-overlay style="color: white;"</em></strong>"&gt;
+            </h4>
+            <h4>&emsp;&emsp;&lt;h2 class="card-title"&gt;Title&lt;/h2&gt;</h4>
+            <h4>&emsp;&emsp;&lt;span class="card-subtitle"&gt;Subtitle&lt;/span&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="card-text"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;Lorem ipsum...</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <div class="card" style="width: 300px; margin: auto;">
+            <img src="https://picsum.photos/300/200" class="card-img" alt="...">
+            <div class="card-img-overlay" style="color: white;">
+                <h2 class="card-title">Title</h2>
+                <span class="card-subtitle">Subtitle</span>
+                <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore
+                    illo ex tempora, similique.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Card with Header and Footer</h3>
+        <code>
+            <h4>&lt;div class="card" style="width: 300px;"&gt;</h4>
+            <h4>&emsp;<strong><em>&lt;div class="card-header"&gt;</em></strong></h4>
+            <h4>&emsp;&emsp;&lt;h2 class="card-title"&gt;Title&lt;/h2&gt;</h4>
+            <h4>&emsp;&emsp;&lt;span class="card-subtitle"&gt;Subtitle&lt;/span&gt;</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;div class="card-body"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="card-text"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;Lorem ipsum...</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;<strong><em>&lt;div class="card-footer"&gt;</em></strong></h4>
+            <h4>&emsp;&emsp;<strong><em>&lt;span class="card-subtitle"&gt;Footer&lt;/span&gt;</em></strong>
+            </h4>
+            <h4>&emsp;<strong><em>&lt;/div&gt;</em></strong></h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <div class="card" style="width: 300px; margin: auto;">
+            <div class="card-header">
+                <h2 class="card-title">Title</h2>
+                <span class="card-subtitle">Subtitle</span>
+            </div>
+            <div class="card-body">
+                <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore
+                    illo ex tempora, similique.
+                </div>
+            </div>
+            <div class="card-footer">
+                <span class="card-subtitle">Footer</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Card Groups</h3>
+        <code>
+            <h4><strong><em>&lt;div class="card-group"&gt;</em></strong></h4>
+            <h4>&emsp;&lt;div class="card" style="width: 300px;"&gt;</h4>
+            <h4>&emsp;&emsp;...</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;div class="card" style="width: 300px;"&gt;</h4>
+            <h4>&emsp;&emsp;...</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <div class="card-group">
+            <div class="card" style="width: 300px;">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Title</h2>
+                    <span class="card-subtitle">Subtitle</span>
+                    <div class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore
+                        illo ex tempora, similique.
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 300px;">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">Title</h2>
+                    <span class="card-subtitle">Subtitle</span>
+                    <div class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a accusantium, dolore
+                        illo ex tempora, similique.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>Modals</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Simple Modal</h3>
+        <code>
+            <h4>&lt;button class="btn btn-primary" <u>data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"</u>&gt;</h4>
+            <h4>&emsp;Open</h4>
+            <h4>&lt;/button&gt;</h4>
+            <h4>&lt;div class="<u>modal fade"</u> <u>id="exampleModal"</u>&gt;</h4>
+            <h4>&emsp;&lt;div <u>class="modal-dialog modal-dialog-centered"</u>&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div <u>class="modal-content"</u>&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;div <u>class="modal-header"</u>&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;<u>h1&gt;Header&lt;/h1&gt;</u></h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;<u>&lt;button class="btn-close"
+                    data-bs-dismiss="modal"&gt;&lt;/button&gt;</u></h4>
+            <h4>&emsp;&emsp;&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;<u>&lt;div class="modal-body"&gt;Body&lt;/div&gt;</u></h4>
+            <h4>&emsp;&emsp;&emsp;<u>&lt;div class="modal-footer"&gt;</u></h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;<u>&lt;button class="btn btn-primary"
+                    data-bs-dismiss="modal"&gt;Close&lt;/button&gt;</u></h4>
+            <h4>&emsp;&emsp;&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <h5>Click the button below to open the simple modal.</h5>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Open</button>
+        <div class="modal fade" id="modal1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Header</h1>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">Body</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Modal Sizes</h3>
+        <code>
+            <h4>&lt;div class="modal fade <strong><em>modal-sm</em></strong>"</h4>
+        </code>
+        <div class="row">
+            <h5>Click the buttons below to open the different sized modals.</h5>
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Small</button>
+                <div class="modal fade modal-sm" id="modal3">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Header</h1>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">Body</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">Medium</button>
+                <div class="modal fade modal-md" id="modal4">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Header</h1>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">Body</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">Large</button>
+                <div class="modal fade modal-lg" id="modal5">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Header</h1>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">Body</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">Extra
+                    Large</button>
+                <div class="modal fade modal-xl" id="modal6">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Header</h1>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">Body</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal7">Full
+                    Screen</button>
+                <div class="modal fade" id="modal7">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Header</h1>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">Body</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <code>
+                            "<strong><em>modal-sm</em></strong>"
+                        </code>
+            </div>
+            <div class="col">
+                <code>
+                            "<strong><em>modal-md</em></strong>"
+                        </code>
+            </div>
+            <div class="col">
+                <code>
+                            "<strong><em>modal-lg</em></strong>"
+                        </code>
+            </div>
+            <div class="col">
+                <code>
+                            "<strong><em>modal-xl</em></strong>"
+                        </code>
+            </div>
+            <div class="col">
+                <code>
+                            "<strong><em>modal-fullscreen</em></strong>"
+                        </code>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4>A note for fullscreen modals:</h4>
+                <code>
+                    <h5>&lt;div class="modal fade <s>modal-fullscreen</s>" id="modal"&gt;</h5>
+                </code>
+                <h5>But rather:</h5>
+                <code>
+                    <h5>&lt;div class="modal fade" id="modal"&gt;</h5>
+                    <h5>&emsp;&lt;div class="modal-dialog <strong><em>modal-fullscreen</em></strong>"&gt;
+                    </h5>
+                </code>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Scrollable Modal</h3>
+        <code>
+            <h4>...</h4>
+            <h4>&lt;div class="modal fade"id="exampleModal"&gt;</h4>
+            <h4>&emsp;&lt;div class="modal-dialog <strong><em>modal-dialog-scrollable"</em></strong>&gt;
+            </h4>
+            <h4>&emsp;&emsp;...</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;div class="modal-body"&gt;<strong><em>Lorem
+                        ipsum...</em></strong>&lt;/div&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;...</h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <h5>Click the button below to open the scrollable modal.</h5>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Open</button>
+        <div class="modal fade" id="modal2">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Header</h1>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
+                        quos excepturi odit dicta possimus facere similique explicabo obcaecati quidem
+                        corporis architecto soluta porro, ipsum ullam. Quidem deserunt sunt vero ab ut quasi
+                        veritatis ex laudantium rem similique dolores nisi voluptate temporibus eius
+                        nesciunt alias quam quod, repellat suscipit animi, adipisci tempora pariatur?
+                        Facilis dicta necessitatibus officiis cum. Vero exercitationem dolor, tenetur iste
+                        possimus non ea, corporis pariatur, soluta ipsa amet error. Modi enim saepe
+                        voluptatum voluptatibus odit exercitationem dolorum rerum soluta ipsa incidunt magni
+                        consequatur, asperiores deleniti. Quo, quos. Nobis eius quibusdam officia temporibus
+                        doloremque dolorem inventore totam commodi molestiae ipsa blanditiis maxime, fugit
+                        cumque quam quaerat quos, laudantium ratione dolor ad ipsam illum eum qui ea. Magni
+                        nihil autem fuga. Ducimus, provident incidunt? Necessitatibus, fuga nostrum.
+                        Voluptas libero eum totam neque reiciendis provident. Beatae vel quod soluta
+                        veritatis eligendi voluptatum repellat odit cumque sint perspiciatis reprehenderit,
+                        voluptas odio. Deserunt aliquam expedita nihil dolore, nam ab? Nostrum pariatur
+                        voluptate laboriosam iure suscipit id illo rerum provident quidem dolore, sed
+                        tenetur hic, quae deserunt, aut laborum tempora nisi accusamus exercitationem. Hic
+                        libero nobis corporis ad labore eius velit distinctio. Dolore blanditiis quis neque
+                        atque culpa voluptatum animi et quisquam illum? Voluptate mollitia nihil in, vel
+                        expedita reprehenderit ex? Molestias voluptatibus iste enim commodi, eos error
+                        soluta veritatis deserunt fuga ex, reprehenderit qui quaerat doloribus perspiciatis
+                        distinctio magnam, esse optio unde quidem animi quia neque! Nemo maxime, ipsum quae
+                        voluptas saepe veniam vel, iusto in reprehenderit quisquam cum harum et quibusdam!
+                        Asperiores est quas totam dolorem nihil debitis, aspernatur possimus tempore saepe
+                        voluptas, odio, perferendis aut minima natus! Ipsam autem dignissimos vel nihil
+                        nesciunt, eligendi debitis fugiat at fuga distinctio quam sequi optio iusto aliquam
+                        delectus cupiditate dolor nulla possimus molestias perferendis non repudiandae illum
+                        vero. Maiores, quisquam aspernatur eum aliquid illum excepturi, laboriosam a
+                        voluptatibus veniam voluptate ratione nostrum officia voluptatum, obcaecati qui
+                        temporibus. Delectus atque praesentium pariatur natus dolorum, asperiores enim
+                        perspiciatis, reiciendis officia nemo necessitatibus harum error nisi. Distinctio
+                        ea, explicabo ipsum fuga laboriosam tempora, sed eum in officia earum, consequuntur
+                        inventore laborum omnis atque ad quas. Cumque molestias possimus voluptatem omnis
+                        enim? Necessitatibus commodi dicta id voluptates vero amet praesentium modi. Dolore
+                        doloremque adipisci quo explicabo iure pariatur tempore illum ad earum, perspiciatis
+                        amet aliquid ab quas nesciunt quisquam repellendus reiciendis voluptatem corrupti
+                        unde facere quae voluptate harum! Ad aliquid veniam iste commodi eos voluptate
+                        porro! Dicta, rem.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Responsive Modal</h3>
+        <h5>Open the modal and then shrink the screen to see the modal respond.</h5>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal8">Responsive
+            Modal</button>
+        <div class="modal fade" id="modal8">
+            <div class="modal-dialog modal-fullscreen-md-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Header</h1>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">Body</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>Collapse Components</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Simple Collapse Component</h3>
+        <code>
+            <h4>&lt;button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#row"
+                aria-expanded="true" aria-controls="row"&gt;Toggle&lt;/button&gt;</h4>
+            <h4>&lt;div class="row collapse show" id="row"&gt;</h4>
+            <h4>&emsp;&lt;div class="col"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="box"&gt;&lt;/div&gt;</h4>
+        </code>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#row1" aria-expanded="true"
+            aria-controls="row">Toggle</button>
+
+        <div class="row collapse show" id="row1">
+            <div class="col">
+                <div class="box">I'm a box that can disappear</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Collapse Multiple Features</h3>
+        <code>
+            <h4>&lt;button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#row2"
+                aria-expanded="true" aria-controls="row"&gt;Toggle&lt;/button&gt;</h4>
+            <h4>&lt;div class="row collapse show" id="row2"&gt;</h4>
+            <h4>&emsp;&lt;div class="col"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="box"&gt;&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;div class="col"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="box"&gt;&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#row2" aria-expanded="true"
+            aria-controls="row">Toggle</button>
+
+        <div class="row collapse show" id="row2">
+            <div class="col">
+                <div class="box">BOX 1</div>
+            </div>
+            <div class="row collapse show">
+                <div class="col">
+                    <div class="box">BOX 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>Nav Bar</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Simple Nav Bar with Brand, Links, and Text</h3>
+        <code>
+            <h4>&lt;nav class="navbar navbar-expand navbar-dark bg-dark"&gt;</h4>
+            <h4>&emsp;&lt;div class="container"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;a href="#" class="navbar-brand"&gt;Brand&lt;/a&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;ul class="navbar-nav"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;li class="nav-item"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&emsp;&lt;a href="#" class="nav-link active"&gt;Home&lt;/a&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;/li&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;li class="nav-item"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&emsp;&lt;a href="#" class="nav-link"&gt;Store&lt;/a&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;/li&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;/ul&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;div class="navbar-text"&gt;Text&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/nav&gt;</h4>
+        </code>
+    </div>
+    <div>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Brand</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Store</a>
+                    </li>
+                </ul>
+                <div class="navbar-text">Text</div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Responsive Nav Bar</h3>
+    </div>
+    <div class="container">
+        <code>
+            <h4>&lt;nav class="navbar navbar-expand navbar-dark bg-dark"&gt;</h4>
+            <h4>&emsp;&lt;div class="container"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;a href="#" class="navbar-brand"&gt;Brand&lt;/a&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;ul class="navbar-nav"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;li class="nav-item"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&emsp;&lt;a href="#" class="nav-link active"&gt;Home&lt;/a&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;/li&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;li class="nav-item"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&emsp;&lt;a href="#" class="nav-link"&gt;Store&lt;/a&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&emsp;&lt;/li&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;/ul&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;div class="navbar-text"&gt;Text&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/nav&gt;</h4>
+        </code>
+    </div>
+    <div class="container">
+        <h5>Shrink the page until the menu shows the hamburger menu on the right side</h5>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Brand</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-collapse" aria-controls="nav" aria-label="Expand Navigation">
+                    <div class="navbar-toggler-icon"></div>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Store</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>HStack & VStack</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Horizontal Stack</h3>
+        <code>
+            <h4>&lt;div class="card"&gt;</h4>
+            <h4>&emsp;&lt;div class="card-body"&gt;</h4>
+            <h4>&emsp;&emsp;&lt;div class="<strong><em>hstack</em></strong>"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;&lt;div class="box" style="width: 100%;"&gt;</h4>
+            <h4>&emsp;&emsp;&emsp;...</h4>
+            <h4>&emsp;&emsp;&emsp;...</h4>
+            <h4>&emsp;&emsp;&emsp;...</h4>
+            <h4>&emsp;&emsp;&lt;/div&gt;</h4>
+            <h4>&emsp;&lt;/div&gt;</h4>
+            <h4>&lt;/div&gt;</h4>
+        </code>
+        <div class="card">
+            <div class="card-body">
+                <div class="hstack">
+                    <div class="box" style="width: 100%;"></div>
+                    <div class="box" style="width: 100%;"></div>
+                    <div class="box" style="width: 100%;"></div>
+                    <div class="box" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3>Vertical Stack</h3>
+        <code>
+            <h4>&lt;div class="<strong><em>vstack</em></strong>"&gt;</h4>
+        </code>
+        <div class="card">
+            <div class="card-body">
+                <div class="vstack">
+                    <div class="box" style="width: 100%;"></div>
+                    <div class="box" style="width: 100%;"></div>
+                    <div class="box" style="width: 100%;"></div>
+                    <div class="box" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="topic">
+    <div class="container">
+        <h2>Borders</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="vstack">
+            <div class="row">
+                <div class="col">
+                    <code>
+                        <h4>&lt;div class="border"&gt;</h4>
+                    </code>
+                </div>
+                <div class="col-3 border-div">
+                    <div class="border">I am a div</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <code>
+                        <h4>&lt;div class="border-primary"&gt;</h4>
+                    </code>
+                </div>
+                <div class="col-3 border-div">
+                    <div class="border border-primary">I am a div</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <code>
+                        <h4>&lt;div class="border-3"&gt;</h4>
+                    </code>
+                </div>
+                <div class="col-3 border-div">
+                    <div class="border border-primary border-3">I am a div</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <code>
+                        <h4>&lt;div class="rounded-3"&gt;</h4>
+                    </code>
+                </div>
+                <div class="col-3 border-div">
+                    <div class="border border-primary border-3 rounded-3">I am a div</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <code>
+                        <h4>&lt;div class="rounded-pill"&gt;</h4>
+                    </code>
+                </div>
+                <div class="col-3 border-div">
+                    <div class="border border-primary border-3 rounded-pill">I am a div</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

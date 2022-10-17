@@ -1,0 +1,46 @@
+.box {
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.box3 {
+    background-color: lightsalmon;
+    border: 1px solid orange;
+    min-height: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.box2 {
+    background-color: lightgreen;
+    border: 1px solid green;
+    min-height: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.topic {
+    border: 1px solid black;
+    opacity: 1;
+}
+
+body {
+    padding-bottom: 45vh;
+}
+
+.jscode_div {
+    background-color: black;
+    
+}
+
+.jscode {
+    color: rgb(0, 204, 255);
+}
+
+.border-div {
+    text-align: center;
+    padding: 10px 10px;
+}
